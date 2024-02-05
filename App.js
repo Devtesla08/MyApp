@@ -1,4 +1,5 @@
 // import { StatusBar } from "expo-status-bar";
+import { registerRootComponent } from "expo";
 import { StyleSheet, Text, View } from "react-native";
 import Splash from "./src/Splash.jsx";
 import Login from "./src/Login.jsx";
@@ -53,13 +54,6 @@ export default function App() {
           <Stack.Screen
             name="Home"
             component={Home}
-            options={
-              {
-                // headerTitle: (e) => {
-                //   // e.children.replace("sdf");
-                // },
-              }
-            }
           />
           <Stack.Screen
             name="ProfileSettings"
@@ -111,7 +105,7 @@ export default function App() {
     </>
   );
 }
-
+registerRootComponent(App)
 const styles = StyleSheet.create({
   // container: {
   //   flex: 1,

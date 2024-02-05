@@ -23,7 +23,7 @@ export default function ForgotPassword({ navigation }) {
     setLoading(true);
 
     if (getEmailId === "") {
-      setEmailError("*This is Required");
+      setEmailError("*Required");
     }
 
     if (getEmailId !== "") {

@@ -147,7 +147,7 @@ export default function Home({ navigation }) {
               <Text
                 style={{ fontSize: 15, color: "white", fontWeight: "bold" }}
               >
-                react-native-login-register-ui
+                Login/register
               </Text>
             </TouchableOpacity>
           </View>

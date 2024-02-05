@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "302742147232",
+    "project_id": "react-native-firebase-3d61e",
+    "storage_bucket": "react-native-firebase-3d61e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302742147232:android:0c4d61239c20263b9cf9c5",
+        "android_client_info": {
+          "package_name": "com.ReactNativefirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPWSI0yMpDZpyueL5P2nwXKu_-mw8cCj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -396,19 +396,4 @@ const styles = StyleSheet.create({
   header: {
     fontSize: 25,
   },
-  //   registerbtn: {
-  //     marginTop: 10,
-  //     backgroundColor: "#e65c40",
-  //     width: 300,
-  //     height: 50,
-  //     borderRadius: 40,
-  //     justifyContent: "center",
-  //     alignItems: "center",
-  //     marginBottom: 50,
-  //     flexDirection: "row",
-  //   },
-  //   registerBtnText: {
-  //     color: "white",
-  //     fontSize: 22,
-  //   },
 });

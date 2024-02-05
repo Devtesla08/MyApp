@@ -37,7 +37,7 @@ export default function CreateNewChat({ navigation }) {
             firstName: getChatId,
             lastName: getChatId,
             emailId: getChatId,
-            lastMessage: "Please write your first message",
+            lastMessage: "Write your first message",
             dateTime: "4/2/2022",
             timestamp: serverTimestamp(),
           })
@@ -56,7 +56,7 @@ export default function CreateNewChat({ navigation }) {
       setDisabled(false);
       setLoading(false);
       setError(true);
-      setThrowError("Please enter unique chat name");
+      setThrowError("Enter unique chat name");
     }
   };
 
@@ -69,7 +69,7 @@ export default function CreateNewChat({ navigation }) {
           uri: "https://raw.githubusercontent.com/hirishu10/my-assets/main/top_log.png",
         }}
       />
-      <Text style={styles.header}>Create Chat for Free!</Text>
+      <Text style={styles.header}>Create Chat</Text>
       <Image
         style={styles.loginImage}
         source={{

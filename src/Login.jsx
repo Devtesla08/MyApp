@@ -64,7 +64,7 @@ export default function Login({ navigation }) {
           uri: "https://raw.githubusercontent.com/hirishu10/my-assets/main/top_log.png",
         }}
       />
-      <Text style={styles.header}>react-native-login-register-ui</Text>
+      <Text style={styles.header}>Login/register</Text>
       <Image
         style={styles.loginImage}
         source={{
@@ -175,7 +175,7 @@ export default function Login({ navigation }) {
             navigation.navigate("Register");
           }}
         >
-          <Text style={styles.registerBtnText}>Register for Free!</Text>
+          <Text style={styles.registerBtnText}>Register Here!</Text>
         </TouchableOpacity>
       </View>
     </View>

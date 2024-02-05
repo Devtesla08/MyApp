@@ -32,7 +32,7 @@ export default function Splash({ navigation }) {
   return (
     <View style={styles.container}>
       <StatusBar barStyle="light-content" />
-      <Text style={styles.highlighter}>react-native-login-register-ui</Text>
+      <Text style={styles.highlighter}>Login/register-ui</Text>
       <ActivityIndicator style={styles.indicator} color={"#757575"} />
     </View>
   );

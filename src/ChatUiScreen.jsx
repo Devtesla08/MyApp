@@ -123,7 +123,7 @@ export default function ChatUiScreen({ navigation, route }) {
                   Platform.OS === "android"
                     ? Alert.alert(
                         "Beta",
-                        "Currently not do anything in future may be do something",
+                        "Do something",
                         [
                           {
                             text: "OK",
@@ -132,7 +132,7 @@ export default function ChatUiScreen({ navigation, route }) {
                         ]
                       )
                     : alert(
-                        "Beta : Currently not do anything in future may be do something"
+                        "Do something"
                       );
                 }}
               >

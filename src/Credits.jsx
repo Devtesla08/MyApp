@@ -146,7 +146,7 @@ export default function Credits() {
             </TouchableOpacity>
           </View>
           <View style={styles.credits}>
-            <Text style={{ color: "#212121" }}>Rishu Chowdhary</Text>
+            <Text style={{ color: "#212121" }}>Ectrician App</Text>
           </View>
         </View>
       </View>
